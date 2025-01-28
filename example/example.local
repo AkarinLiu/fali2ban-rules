@@ -1,0 +1,9 @@
+[example]
+enabled  = true
+port     = 
+filter   = example
+logpath  = /path/to/log # 日志路径
+maxretry = 3      # 允许的失败次数
+bantime  = 1d     # 封禁时长
+findtime = 10m    # 检测时间窗口
+action = iptables[name=Example, port=, protocol=tcp]
