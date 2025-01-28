@@ -1,6 +1,6 @@
 # Fail2Ban Rules
 
-一个 Fail2Ban 规则列表，保护您的服务器！
+一个 Fail2Ban 规则库，保护您的服务器！
 
 ## 使用方法
 
