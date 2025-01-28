@@ -20,3 +20,31 @@ yum install epel-release
 yum install fail2ban
 systemctl enable --now fail2ban
 ```
+### Arch Linux
+
+```bash
+pacman -S fail2ban
+systemctl enable --now fail2ban
+```
+### OpenSUSE
+
+```bash
+zypper install fail2ban
+systemctl enable --now fail2ban
+```
+
+### Alpine Linux
+
+```bash
+apk add fail2ban
+rc-update add fail2ban
+rc-service fail2ban start
+```
+
+### Void Linux
+
+```bash
+xbps-install -S fail2ban
+ln -s /etc/sv/fail2ban /var/service/
+```
+
