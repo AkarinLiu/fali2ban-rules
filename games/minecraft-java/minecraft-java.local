@@ -1,0 +1,8 @@
+[minecraft-java]
+enabled  = true
+port     = 25565  # Minecraft 默认端口（若修改过需同步调整）
+filter   = minecraft-java
+logpath  = /path/to/minecraft.log
+maxretry = 3      # 允许的失败次数
+bantime  = 1d     # 封禁时长
+findtime = 10m    # 检测时间窗口
