@@ -5,6 +5,6 @@ filter   = palworld
 logpath  = /path/to/Pal/Saved/Logs/PalServer.log
 protocol = udp                 # 幻兽帕鲁使用 UDP 协议
 maxretry = 3                   # 允许的失败次数
-bantime  = 24h                 # 封禁 24 小时
-findtime = 10m                 # 检测时间窗口
+bantime  = 1h                 # 封禁时长
+findtime = 1m                 # 检测时间间隔
 action = iptables[name=Palworld, port=8211, protocol=udp]
