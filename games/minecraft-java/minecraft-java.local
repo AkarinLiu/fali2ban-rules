@@ -4,6 +4,6 @@ port     = 25565  # Minecraft 默认端口（若修改过需同步调整）
 filter   = minecraft-java
 logpath  = /path/to/minecraft/latest.log # 日志路径 
 maxretry = 3      # 允许的失败次数
-bantime  = 1d     # 封禁时长
-findtime = 10m    # 检测时间窗口
+bantime  = 1h     # 封禁时长
+findtime = 1m    # 检测时间间隔
 action = iptables[name=MC, port=25565, protocol=tcp]
